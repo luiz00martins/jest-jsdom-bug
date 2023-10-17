@@ -1,10 +1,6 @@
 const alterschema = require('alterschema');
 
 describe('Test', function() {
-	it('should pass', function() {
-		expect(true).toEqual(true);
-	});
-
 	const schema = {
 		foo: {
 			type: 'string',
